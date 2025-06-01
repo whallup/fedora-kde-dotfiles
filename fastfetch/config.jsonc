@@ -1,1 +1,214 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+      "source": "~/.config/fastfetch/logo.txt",
 
+      "color": {
+        "1": "#C9C8C6",
+      },
+
+      "padding": {
+        "top": 2,
+        "left": 1,
+        "right": 2
+      }
+    },
+ "modules": [
+        "break",
+        "break",
+        "break",
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌─────────────────────── {#1}{##9F4B33}Specs {#}\u001b[90m──────────────────────┐"
+        },
+         {
+            "type": "host",
+            "outputColor": "#C9C8C6",
+            "key": " PC",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ CPU",
+            "showPeCoreCount": true,
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "gpu",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰍛 GPU",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "gpu",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰍛 GPU",
+            "format": "{3}",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "display",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰹑 DISPLAY",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "custom",
+            "format": "{#1}{##CE7461}│ ├󰓃 SOUND{#}{##C9C8C6}: Scarlett 2i2 4th Gen",
+            "formatColor": "#CE7461"
+        },
+        {
+            "type": "memory",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰍛 MEMORY",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "swap",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰓡 SWAP",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────── {#1}{##9F4B33}SSD Drives {#}\u001b[90m────────────────────┐"
+        },
+        {
+            "type": "disk",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ DISK",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌─────────────────── {#1}{##9F4B33}Fedora OS {#}\u001b[90m──────────────────────┐"
+        },
+        {
+            "type": "custom",
+            "format": "{#1}{##CE7461}│ ├ OS{#}{##C9C8C6}: Fedora KDE Plasma Desktop 42",
+            "formatColor": "#CE7461"
+        },
+        {
+            "type": "title",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ USER/HOST",
+            "format": "{user-name}@{host-name}",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "kernel",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ KERNEL",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "packages",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰏖 PACKAGES",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "terminal",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ TERMINAL",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "terminalfont",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰛖 TERMINAL FONT",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "shell",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ SHELL",
+            "keyColor": "#CE7461"
+       },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌─────────────── {#1}{##9F4B33}Desktop Enviroment {#}\u001b[90m─────────────────┐"
+        },
+        {
+            "type": "de",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ DE",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "lm",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ DISPLAY MANAGER",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "wm",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ WINDOW MANAGER",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "wmtheme",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├ THEME",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "icons",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰉼 ICONS",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "font",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├󰛖 SYSTEM FONT",
+            "format": "{3}",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌─────────────────── {#1}{##9F4B33}Age / Uptime {#}\u001b[90m───────────────────┐"
+        },
+        {
+            "type": "command",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├OS Age ",
+            "keyColor": "#CE7461",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "outputColor": "#C9C8C6",
+            "key": "│ ├Uptime ",
+            "keyColor": "#CE7461"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+    ]
+}
