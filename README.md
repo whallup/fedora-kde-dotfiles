@@ -1,6 +1,9 @@
 # fedora-kde-dotfiles  
 Requirements:  
 Fastfetch  
-Fantasque Nerd font  
-Panel Colorizer  
+Font: Fantasque Nerd font  
+Panel: Panel Colorizer  
+Workspaces: Kara  
+Wallpaper: https://wallhaven.cc/w/zywe5j  
 
+This is my first repo so please go easy on me lol
