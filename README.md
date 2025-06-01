@@ -1,6 +1,6 @@
-# fedora-kde-dotfiles
-Requirements:
-Fastfetch
-Fantasque Nerd font
-Panel Colorizer
+# fedora-kde-dotfiles  
+Requirements:  
+Fastfetch  
+Fantasque Nerd font  
+Panel Colorizer  
 
